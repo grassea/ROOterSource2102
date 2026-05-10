@@ -14,16 +14,13 @@ define Package/ext-rooter-lite
   SECTION:=utils
   CATEGORY:=ROOter
   DEPENDS:=+luci +ext-rooter-basic +pingtest +ext-logo \
-		+luci-app-ddns +ddns-scripts +ext-multimodem \
-		+luci-app-rootervpn +ext-wireguard \
+		+ext-multimodem \
 		+bwmon +464xlat +webconsole \
-		+ext-theme +luci-theme-argon +luci-theme-argondark +ext-login \
-		+luci-theme-tomato +ext-zerotier \
+		+ext-theme +luci-theme-argon +ext-login \
 		+ca-bundle +ca-certificates +libustream-wolfssl \
 		+luci-app-ksmbd +usb-storage \
-		+ext-p910nd +luci-app-sqm +kmod-sched-cake +luci-app-nft-qos \
-		+ext-command +ext-speedtest \
-		+openvpn-easy-rsa +openvpn-openssl \
+		+luci-app-sqm +kmod-sched-cake +luci-app-nft-qos \
+		+ext-command \
 		+ext-extra +luci-app-hotspot +luci-app-wol +luci-app-guestwifi \
 		+usbmuxd +libusbmuxd-utils +libimobiledevice-utils +kmod-usb-net-ipheth \
 		+qlog +luci-ssl +usbutils +openssl-util +ethtool +ext-splashconfig \
