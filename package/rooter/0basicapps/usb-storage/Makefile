@@ -14,9 +14,9 @@ define Package/usb-storage
   SECTION:=utils
   CATEGORY:=ROOter
   SUBMENU:=Basic Applications
-  DEPENDS:= +ntfs-3g +fdisk +kmod-usb-storage \
-	    +kmod-fs-ext4 +kmod-fs-vfat +kmod-nls-cp437 +kmod-nls-iso8859-1 +kmod-nls-utf8 \
-	    +block-mount +kmod-fs-exfat +kmod-fs-hfs +hd-idle
+  DEPENDS:= +fdisk +kmod-usb-storage \
+	    +kmod-fs-vfat +kmod-nls-cp437 +kmod-nls-iso8859-1 +kmod-nls-utf8 \
+	    +block-mount
   TITLE:=Install USB Storage
   PKGARCH:=all
 endef
