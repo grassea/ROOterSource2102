@@ -16,7 +16,7 @@ define Package/ext-logo
   SECTION:=utils
   CATEGORY:=ROOter
   SUBMENU:=Optional Applications
-  DEPENDS:=+luci-theme-openwrt-2020 +luci-theme-material
+  DEPENDS:=+luci-theme-material
   TITLE:=ROOter logos
   PKGARCH:=all
 endef
