@@ -16,7 +16,7 @@ define Package/ext-rooter-lite
   DEPENDS:=+luci +ext-rooter-basic +pingtest +ext-logo \
 		+ext-multimodem \
 		+bwmon +464xlat +webconsole \
-		+ext-theme +luci-theme-argon +ext-login \
+		+ext-theme +ext-login \
 		+ca-bundle +ca-certificates +libustream-wolfssl \
 		+luci-app-ksmbd +usb-storage \
 		+luci-app-sqm +kmod-sched-cake +luci-app-nft-qos \
