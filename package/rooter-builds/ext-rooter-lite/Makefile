@@ -15,10 +15,10 @@ define Package/ext-rooter-lite
   CATEGORY:=ROOter
   DEPENDS:=+luci +ext-rooter-basic +pingtest +ext-logo \
 		+ext-multimodem \
-		+bwmon +464xlat +webconsole \
+		+464xlat +webconsole \
 		+ext-theme +ext-login \
 		+ca-bundle +ca-certificates +libustream-wolfssl \
-		+luci-app-ksmbd +usb-storage \
+		+usb-storage \
 		+luci-app-sqm +kmod-sched-cake +luci-app-nft-qos \
 		+ext-command \
 		+ext-extra +luci-app-hotspot +luci-app-wol +luci-app-guestwifi \
