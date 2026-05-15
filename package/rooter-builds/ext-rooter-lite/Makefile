@@ -21,9 +21,9 @@ define Package/ext-rooter-lite
 		+usb-storage \
 		+luci-app-sqm +kmod-sched-cake +luci-app-nft-qos \
 		+ext-command \
-		+ext-extra +luci-app-hotspot +luci-app-wol +luci-app-guestwifi \
+		+ext-extra +luci-app-hotspot +luci-app-guestwifi \
 		+usbmuxd +libusbmuxd-utils +libimobiledevice-utils +kmod-usb-net-ipheth \
-		+qlog +luci-ssl +usbutils +openssl-util +ethtool +ext-splashconfig \
+		+qlog +luci-ssl +usbutils +openssl-util +ethtool \
 		+nano +picocom +wpad-openssl +wget +qfirehose +luci-app-vpnbypass +ext-simplegps 
   TITLE:=ROOter support w/o MWan3 for 16meg and larger routers 
   PKGARCH:=all
