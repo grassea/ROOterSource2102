@@ -19,7 +19,7 @@ define Package/ext-rooter-lite
 		+ext-theme +ext-login \
 		+ca-bundle +ca-certificates +libustream-wolfssl \
 		+usb-storage \
-		+luci-app-sqm +kmod-sched-cake +luci-app-nft-qos \
+		+kmod-sched-cake \
 		+ext-command \
 		+ext-extra +luci-app-hotspot +luci-app-guestwifi \
 		+usbmuxd +libusbmuxd-utils +libimobiledevice-utils +kmod-usb-net-ipheth \
